@@ -2,8 +2,8 @@
 Find the nearest package.json in your current node module.
 
 ## How does it works?
-The find-package module will look upstream in every paren directory until it finds a package.json file or return null.
-If it finds a package.json, it wild require it and return it as an object.
+The find-package module will look upstream in every parent directory until it finds a package.json file or return null.
+If it finds a package.json, it will require it and return it as an object.
 
 ## Install
 
